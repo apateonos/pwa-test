@@ -68,17 +68,14 @@ const Home = () => {
 
       {/* Ad Banner 2 */}
       <AdBanner>
-        <AdText>광고 배너 2</AdText>
-      </AdBanner>
-      <AdBanner>
-        <AdText>광고 배너 2</AdText>
-      </AdBanner>
-      <AdBanner>
-        <AdText>광고 배너 2</AdText>
-      </AdBanner>
-      <AdBanner>
-        <AdText>광고 배너 2</AdText>
-      </AdBanner>
+          <AdImage src='ad1.png'/>
+          <AdTextWrapper>
+            <TextWrapper>
+              <AdTitle>해외여행 혜택 가득한 NEW 카드 출시</AdTitle>
+              <Adsubtitle>혜택 확인하고 지금 발급해보세요!</Adsubtitle>
+            </TextWrapper>
+          </AdTextWrapper>
+        </AdBanner>
       </MainWrapper>
 
       {/* Fixed Category Bar */}
